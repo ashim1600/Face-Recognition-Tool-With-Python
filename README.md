@@ -1,5 +1,5 @@
 ## Face Recognition Command-Line Tool
-**This Project guides you through building a face recognition command-line tool using Python. It covers various techniques, including face detection, face recognition, and incorporating command-line arguments for user interaction.**
+> This Project guides you through building a face recognition command-line tool using Python. It covers various techniques, including face detection, face recognition, and incorporating command-line arguments for user interaction.
 
 ## Project Overview
 The project is structured into several steps, including:
@@ -14,7 +14,7 @@ The project is structured into several steps, including:
  To undertake this project, you should have:
 
 ### An intermediate-level understanding of Python
-Familiarity with installing third-party modules using pip
+> Familiarity with installing third-party modules using pip
 Knowledge of modules like argparse, pathlib, and pickle
 Dependencies
 The project utilizes the following third-party libraries:
@@ -27,7 +27,7 @@ Key Tasks
 Key tasks within face recognition include:
 
 ### Detecting faces in images
-Generating encodings for faces
+> Generating encodings for faces
 Comparing unknown faces with known encodings
 Storing encodings on disk to avoid redundant computation
 Functions
@@ -39,7 +39,7 @@ Result Presentation
 Results are presented by:
 
 ## Drawing bounding boxes around recognized faces
-Annotating them with names on the input image using the Pillow library
+> Annotating them with names on the input image using the Pillow library
 Model Validation
 The tutorial concludes by introducing model validation techniques to assess the trained model's performance on new data. It includes the use of the argparse module to create a command-line interface for the script, enabling users to execute tasks like training, validation, and testing.
 
